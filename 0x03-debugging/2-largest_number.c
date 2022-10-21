@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -24,7 +23,7 @@ int largest_number(int a, int b, int c)
 	}
 	else
 	{
-		if (b > c)
+		if (b < c)
 			largest = c;
 		else
 			largest = b;
