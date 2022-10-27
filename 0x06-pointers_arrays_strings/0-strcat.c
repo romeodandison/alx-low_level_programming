@@ -4,9 +4,10 @@
  * _stracat - concatennates two strings
  * @dest: copy to
  * @src: copy from
- * Return: pointer to destination
+ * Return: pointer to dest
  */
 char *_strcat(char *dest, char *src)
+
 {
 	int i;
 	int j;
